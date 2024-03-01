@@ -1,6 +1,6 @@
 # Portfolio Pessoal
 
-# Frontend com React.js + Next.js (styled Components)
+# Frontend com React.js + Next.js (Styled Components)
 
 # API do Github
 
