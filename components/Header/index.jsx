@@ -19,7 +19,7 @@ export default function Header() {
       <Content>
         <ContentTitle>
           <Title>
-            William Lucas
+            Mauricio Abdala
           </Title>
           <SubTitle>
             Portfolio Pessoal
@@ -32,6 +32,9 @@ export default function Header() {
           <CloseSidebar onClick={showSiderbar}><FaTimes /></CloseSidebar>
           <Link href="/">
             <Ancora className={activeLink('')} onClick={showSiderbar}>Home</Ancora>
+          </Link>
+          <Link href="perfil">
+            <Ancora className={activeLink('perfil')} onClick={showSiderbar}>Sobre mim</Ancora>
           </Link>
           <Link href="projects">
             <Ancora className={activeLink('projects')} onClick={showSiderbar}>Projetos</Ancora>

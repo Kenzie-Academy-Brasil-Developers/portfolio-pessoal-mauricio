@@ -4,7 +4,7 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  height: calc(100vh - 100px);
+  height: calc(100vh);
 `;
 
 export const Content = styled.div`
@@ -13,7 +13,8 @@ export const Content = styled.div`
   justify-content: center;
   display: flex;
   align-items: center;
-  padding: 20px;
+  padding: 114px;
+  overflow: auto;
 
   @media (max-width: 600px) {
     padding: 5px;

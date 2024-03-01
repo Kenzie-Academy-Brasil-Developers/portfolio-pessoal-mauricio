@@ -7,18 +7,18 @@ export default function Home() {
    <Container>
      <Content>
       <Infos>
-        <Name>Olá, sou William Lucas</Name>
-        <Function>FullStack Developer</Function>
-        <Intro>Graduado em Sistemas de Informação, 
-          tenho experiência em desenvolvimento Web
-          (React, Asp, JS e outros), mobile e criação de conteúdo para o YouTube.
+        <Name>Olá, sou Mauricio Abdala</Name>
+        <Function>Desenvolvedor FullStack</Function>
+        <Intro>Certificado pela Kenzie Academy, 
+          tenho conhecimento em desenvolvimento Web
+          (React, JS, Vite, Next, Python, postgreSQL, mySQL, NodeJS, GitHub, utilização de libs, etc... ), e criação de conteúdo para o YouTube.
         </Intro>
         <Link href="projects">
           <LinkProjects>PROJETOS <FaArrowRight /></LinkProjects>
         </Link>
       </Infos>
       <Logo>
-        <Img src="/images/logo.png" alt="logo" />
+        <Img src="/images/foto.png" alt="logo" />
       </Logo>
      </Content>
    </Container>

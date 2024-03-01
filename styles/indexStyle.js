@@ -4,7 +4,7 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  height: calc(100vh - 100px);
+  height: calc(100vh );
 `;
 
 export const Content = styled.div`
@@ -78,8 +78,8 @@ export const Logo = styled.div`
   justify-content: center;
 
   img {
-    width: 25rem;
-    height: 25rem;
+    width: 33rem;
+    height: 18rem;
   }
 
   @media (max-width: 760px) {

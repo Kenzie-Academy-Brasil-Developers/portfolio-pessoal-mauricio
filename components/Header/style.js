@@ -1,11 +1,16 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
+  width: 100%;
   height: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #1d5522;
+  background-image: linear-gradient(225deg, #1d5522 0%, #051f05 50%, #000000 100%);
   border-bottom: 1px solid white;
+  position: fixed;
+  
 `;
 
 export const Content = styled.div`
@@ -26,7 +31,8 @@ export const NavLinks = styled.nav`
 
   @media (max-width: 560px) {
     flex-direction: column;
-    background-color: #161616;
+    background-color: #1d5522;
+    background-image: linear-gradient(225deg, #1d5522 0%, #051f05 50%, #000000 100%);
     position: fixed;
     height: 100%;
 

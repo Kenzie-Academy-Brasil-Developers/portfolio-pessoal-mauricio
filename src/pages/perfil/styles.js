@@ -3,16 +3,20 @@ import styled from "styled-components";
 export const Container = styled.div`
   display: flex;
   align-items: center;
-  justify-content: center;
-  height: calc(100vh);
+  justify-content: space-between;
+  height: calc(100%vh);
 `;
 
 export const Content = styled.div`
   width: 1120px;
-  height: 50%;
+  height: 100%;
   display: flex;
-  align-items: center;
-  flex-direction: column;
+  align-items: start;
+  flex-direction: row;
+  text-align: left;
+  line-height: 1.8;
+  gap: 50px;
+  margin-top: 20px;
   
 
   padding: 20px;
@@ -21,3 +25,7 @@ export const Content = styled.div`
     padding: 10px;
   }
 `;
+
+
+
+
