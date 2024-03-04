@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { Container, Content, Ul, Li, TitleProject, Url, Created_at } from './style'
+import { Container, Content, Ul, Li, TitleProject, Url, Created_at } from '../../../styles/projects_style'
 
 export default function Projects() {
   const [itemsApi, setItemsApi] = useState([])
@@ -31,7 +31,7 @@ export default function Projects() {
         {itemsApi.map(item => (
           <Li key={item.id}>
             <TitleProject>{item.name.toUpperCase()}</TitleProject>
-            <Url>URL: {item.url}</Url>
+            <a href={item.html_url} target="_blank" rel="noopener noreferrer">URL:{item.html_url}</a>
             <Created_at>Data Criação: { Intl.DateTimeFormat('pt-BR')
               .format(new Date(item.created_at))}
             </Created_at>

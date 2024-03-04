@@ -9,10 +9,11 @@ export const Container = styled.div`
 
 export const Content = styled.div`
   width: 1120px;
-  height: 50%;
+  height: 60%;
   display: flex;
   align-items: center;
   flex-direction: column;
+  overflow: auto;
   
 
   padding: 20px;

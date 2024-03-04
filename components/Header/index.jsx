@@ -30,7 +30,7 @@ export default function Header() {
         </Menu>
         <NavLinks sidebar={sidebar}>
           <CloseSidebar onClick={showSiderbar}><FaTimes /></CloseSidebar>
-          <Link href="/">
+          <Link href="/" >
             <Ancora className={activeLink('')} onClick={showSiderbar}>Home</Ancora>
           </Link>
           <Link href="perfil">
@@ -38,6 +38,9 @@ export default function Header() {
           </Link>
           <Link href="projects">
             <Ancora className={activeLink('projects')} onClick={showSiderbar}>Projetos</Ancora>
+          </Link>
+          <Link href="deploy">
+            <Ancora className={activeLink('deploy')} onClick={showSiderbar}>Deploy</Ancora>
           </Link>
           <Link href="contact">
             <Ancora className={activeLink('contact')} onClick={showSiderbar}>Contato</Ancora>

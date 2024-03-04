@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Content } from './styles.js'
+import { Container, Content } from '../../../styles/perfil_styles'
 
 
 

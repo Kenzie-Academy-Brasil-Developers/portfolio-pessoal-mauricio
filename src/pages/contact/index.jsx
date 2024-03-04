@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Content } from './style'
+import { Container, Content } from '../../../styles/contac_style'
 import { FaLinkedin, FaEnvelope,} from 'react-icons/fa'
 import ItemContact from '../../../components/ItemContact'
 

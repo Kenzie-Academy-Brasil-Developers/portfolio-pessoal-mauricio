@@ -7,7 +7,7 @@ export const Item = styled.div`
   display: flex;
   align-items: center;
   word-break: break-word;
-
+  
   
   @media (max-width: 760px) {
    font-size: 12px;

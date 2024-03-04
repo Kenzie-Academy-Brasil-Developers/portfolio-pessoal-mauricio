@@ -1,5 +1,5 @@
 import React from 'react'
-import { Item, Icon, Text } from './style'
+import { Item, Icon, Text, } from './style'
 
 export default function ItemContact({ IconFa, LinkContact }) {
   const isEmail = LinkContact.includes('@');
