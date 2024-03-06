@@ -21,8 +21,9 @@ export const Content = styled.div`
   }
 `;
 
-export const Ul = styled.ul`
+export const Ul = styled.ul` 
   overflow-x: auto;
+  width: 500px;
   height: inherit;
 
   &::-webkit-scrollbar {

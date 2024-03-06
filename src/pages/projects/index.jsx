@@ -31,7 +31,7 @@ export default function Projects() {
         {itemsApi.map(item => (
           <Li key={item.id}>
             <TitleProject>{item.name.toUpperCase()}</TitleProject>
-            <a href={item.html_url} target="_blank" rel="noopener noreferrer">URL:{item.html_url}</a>
+            <a href={item.html_url} target="_blank" rel="noopener noreferrer">repositório do GitHub{item.html}</a>
             <Created_at>Data Criação: { Intl.DateTimeFormat('pt-BR')
               .format(new Date(item.created_at))}
             </Created_at>

@@ -10,6 +10,7 @@ export default function Contact() {
         <ItemContact
           IconFa={FaLinkedin}
           LinkContact="https://www.linkedin.com/in/mauricio-abdala/"
+          name="Meu perfil do Linkedin"
         />
         <ItemContact
           IconFa={FaEnvelope}
